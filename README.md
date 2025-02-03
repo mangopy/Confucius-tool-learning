@@ -83,15 +83,16 @@ The dataset contains all the toolset in our work. For the evaluation of `unseen`
 ## How to Reproduce?
 
 ### Environment Set up
-
-1. python 3.9 
-2. pytorch lightning (1.9.0)
-3. Deepspeed (deepspeed in pytorch lightning)
-4. transformer (install from source)
-5. pytorch (torch 1.11)
-6. tqdm
-7. openai (only for collecting data)
-
+Necessary environment python package.
+```
+python 3.9 
+pytorch lightning (1.9.0)
+Deepspeed (deepspeed in pytorch lightning)
+transformer (install from source)
+pytorch (torch 1.11)
+tqdm
+openai (only for collecting data)
+```
 We optimize the model using deepspeed ZeRO-three  strategy with the learning rate of $5e^{-5}$ and the weight decay coefficient of 0.01.
 The training of our model can be done within 20 hours with **4 NVIDIA A100-PCIE-80GB GPUs**.
 
