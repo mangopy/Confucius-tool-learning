@@ -3,15 +3,17 @@
    <h1>Confucius <img src="./assets/image-20230817114433957.png" alt="Logo" width="30px" height="30"/></h1>
 </div>
 
-Iterative Tool Learning from Introspection Feedback by Easy-to-Difficult Curriculum
+This project aims to teach large language models (LLMs) to use external tools, enabling them as agents to for practical task planning and tool calling. To achieve this, we propose the "Iterative Tool Learning from Introspection Feedback by Easy-to-Difficult Curriculum". Here is the brief comparison with previous method and more details can be found in our [paper](https://arxiv.org/abs/2308.14034).
 
-![img.png](./assets/images/method.png)
+![img.png](./assets/comparison.png)
 
 ## Introduction
 
 Augmenting large language models (LLMs) with external tools has emerged as a promising approach to extending the capability of LLMs. Although some works employ open-source LLMs for the tool learning task, most of them are trained in a controlled environment in which LLMs only learn to execute the human-provided tools.
 
 However, selecting proper tools from the large toolset is also a crucial ability for the tool learning model to be applied in real-world applications. Existing methods usually directly employ self-instruction methods to train the model, which ignores differences in tool complexity. In this paper, we propose the ***Confucius***, a novel tool learning framework to train LLM to use complicated tools in real-world scenarios
+
+![img.png](./assets/method.png)
 
 ## News
 
@@ -27,7 +29,6 @@ In this paper, we propose the ***Confucius***,  a tool-learning framework to tra
 
 1. In order to tackle the first challenge, we first propose a multi-stage learning method to teach the LLM to use various tools from an easy-to-difficult curriculum;
 2.  We propose an **Iterative Self-instruct from Introspective Feedback** (ISIF) technique to dynamically construct the dataset to improve the ability to use the complicated tool.
-
 
 
 ## Dataset
