@@ -1,6 +1,6 @@
 
 <div align="center">
-   <h1>Confucius <img src="./assets/image-20230817114433957.png" alt="Logo" width="30px" height="30"/></h1>
+   <h1>Confucius <img src="./assets/image-20230817114433957.png" alt="Logo" width="40px" height="40"/></h1>
 </div>
 
 This project aims to teach large language models (LLMs) to use external tools, enabling them as agents to for practical task planning and tool calling. To achieve this, we propose the "Iterative Tool Learning from Introspection Feedback by Easy-to-Difficult Curriculum". Here is the brief comparison with previous method and more details can be found in our [paper](https://arxiv.org/abs/2308.14034).
