@@ -1,10 +1,11 @@
-![image-20230817114440564](./assets/image-20230817114433957.png)
 
-# *Confucius*
+<div align="center">
+   <h1>Confucius <img src="./assets/image-20230817114433957.png" alt="Logo" width="30px" height="30"/></h1>
+</div>
 
 Iterative Tool Learning from Introspection Feedback by Easy-to-Difficult Curriculum
 
-
+![img.png](./assets/images/method.png)
 
 ## Introduction
 
@@ -12,6 +13,12 @@ Augmenting large language models (LLMs) with external tools has emerged as a pro
 
 However, selecting proper tools from the large toolset is also a crucial ability for the tool learning model to be applied in real-world applications. Existing methods usually directly employ self-instruction methods to train the model, which ignores differences in tool complexity. In this paper, we propose the ***Confucius***, a novel tool learning framework to train LLM to use complicated tools in real-world scenarios
 
+## News
+
+- **[2025.2.3]** Our code has been moved to this new [github repo](https://github.com/mangopy/Confucius-tool-learning/)!
+- **[2024.3.1]** Our dataset has been uploaded and can be download. 
+- **[2024.1.31]** Our code has been released in the [github repo](https://github.com/shizhl/Confucius).
+- **[2023.12.20]** Our paper has been accepted by AAAI 2023 🎉🎉🎉.
 
 
 ## Methodology
