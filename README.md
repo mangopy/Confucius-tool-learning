@@ -19,7 +19,7 @@ However, selecting proper tools from the large toolset is also a crucial ability
 
 - **[2025.2.3]** Our code has been moved to this new [github repo](https://github.com/mangopy/Confucius-tool-learning/)!
 - **[2024.3.1]** Our dataset has been uploaded and can be download. 
-- **[2024.1.31]** Our code has been released in the [github repo](https://github.com/shizhl/Confucius).
+- **[2024.1.31]** Our code has been released in the github. See this [repo](https://github.com/shizhl/Confucius) for details.
 - **[2023.12.20]** Our paper has been accepted by AAAI 2023 🎉🎉🎉.
 
 
